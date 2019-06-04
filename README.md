@@ -35,15 +35,16 @@ The algorithm works as follows:
 1-First we initialize k points, called means, randomly.
 2-We categorize each item to its closest mean and we update the mean’s coordinates, which are the averages of the items categorized in that mean so far.
 3-We repeat the process for a given number of iterations and at the end, we have our clusters.
-
 ```
 	
 ### Used equations
 
 Euclidean distance:
+
 ![distance](https://wikimedia.org/api/rest_v1/media/math/render/svg/795b967db2917cdde7c2da2d1ee327eb673276c0)
 
 Average(calculating new centroid for each cluster):
+
 ![average](https://wikimedia.org/api/rest_v1/media/math/render/svg/dc56506f7a018c71acd48c3942b5c2e217ab6f08)
 
 ## Authors
